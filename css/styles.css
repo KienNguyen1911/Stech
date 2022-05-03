@@ -1,0 +1,280 @@
+.row{
+    /* flex-wrap: nowrap !important; */
+    width: 100%;
+}
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(37, 37, 37, 0.55);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+.navbar-nav .nav-link{
+    color: #fff !important;
+}
+
+#intro{
+    position: fixed;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.over_lay{
+    background-color: rgba(36, 36, 36, 0.85);
+    position: relative;
+    /* height: 600px; */
+    width: 100%;
+}
+
+.tittle{
+    /* position: absolute; */
+    /* top: 150px;
+    left: 50px; */
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.contentNO{
+    /* position: absolute;
+    top: 320px;
+    left: 95px; */
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-align: left;
+}
+
+.white{
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.content-hirement h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: red;
+    padding-top: 20px;    
+}
+
+.content-hirement p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+    font-style: italic;
+}
+
+.content_work{
+    /* position: absolute;
+    top: 250px;
+    left: 300px; */
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    text-align: left;
+    /* width: 50%; */
+}
+
+.content_work ul li{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000;
+    font-style: italic;
+}
+
+.wellbeing_time{
+    /* height: 700px; */
+}
+.over_lay .container{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    padding: 40px 0px;
+}
+
+.Wellbeing{
+    text-align: center;
+}
+.Wellbeing h1{
+    color: #81C784;
+    font-size: 3.8rem;
+}
+
+.col-lg-7 {
+    color: white;
+}
+
+.Salary span{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.Salary p{
+    padding-left: 2rem;
+}
+
+.Time_working p{
+    padding-left: 2rem;
+}
+
+.remuneration_tittle h1{
+    font-size: 3.8rem;
+    font-weight: 600;
+    color: #81C784;
+    padding-top: 20px;
+}
+.remuneration_tittle p{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.infor > *{
+    border-top: solid 1px #ADADAD;
+    padding-top: 10px;
+}
+
+.col-lg-6 h2{
+    color: #62738C;
+    font-size: 1.8rem;
+}
+.col-lg-6 span{
+    font-weight: 600;
+    font-size: 2rem;
+    color: #7BAAEB;
+}
+.col-lg-6 img{
+    width: 100%;
+    height: 400px;
+    object-fit: none;
+}
+
+.color_bg{
+    background-color: rgb(217, 224, 235, 0.95);
+}
+
+.policies h1{
+    color: #0A67E9;
+}
+.policy_content{
+    margin: 20px auto 0px;
+    width: 80%;
+    background-color: rgb(243, 246, 250, 0.95);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.policy_content h3{
+    font-size: 1.2rem;
+}
+
+.policy_content img{
+    width: 100%;
+    height: auto;
+}
+
+.policy_content p{
+    color: black;
+}
+
+.visa{
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(243, 246, 250, 0.95);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    height: 300px;
+    position: relative;
+}
+.visa h3{
+    font-size: 1.2rem;
+    color: #0A67E9;
+    text-align: center;
+    font-weight: 700;
+}
+.visa p{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+/* .padding-visa{
+    padding : 1rem 8rem;
+} */
+
+.compensation .card{
+    margin: 10px auto;
+    width: 100%;
+    background-color: rgb(243, 246, 250, 0.95);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    height: 300px;
+    /* position: relative; */
+    box-shadow: 8px 8px 8px #a5a4a4;
+}
+
+.compensation h3{
+    font-size: 1.5rem;
+    color: #0A67E9;
+    font-weight: 700;
+}
+
+.campus_des {
+    margin: 20px auto ;
+    width: 60%;
+    text-align: center;
+}
+.campus_des h3{
+    font-size: 1.8rem;
+}
+.campus_des p{
+    font-size: 0.9rem;
+}
+
+.card_img img{
+    width: 100%;
+    height: auto;
+}
+
+.contact_footer {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    *{
+        text-align: center;
+    }
+
+    
+}
