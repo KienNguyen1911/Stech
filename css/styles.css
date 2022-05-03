@@ -37,7 +37,7 @@
     color: #fff !important;
 }
 
-#intro img{
+#intro .img_bgr{
     position: fixed;
     background-size: cover ;
     background-repeat: no-repeat;
@@ -45,6 +45,7 @@
     background-attachment: scroll;
     width: 100%;
     overflow: hidden;
+    height: 100vh;
 }
 
 
@@ -273,7 +274,7 @@
 
 @media screen and (max-width: 768px) {
     *{
-        text-align: center;
+        /* text-align: center; */
     }
 
     
